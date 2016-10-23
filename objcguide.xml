@@ -245,14 +245,18 @@ Revision 2.59
 
   <STYLEPOINT title="Line Length">
     <SUMMARY>
-      The maximum line length for Objective-C and Objective-C++ files is 100
+      The maximum line length for Objective-C and Objective-C++ files is <SPAN style="TEXT-DECORATION: line-through">100</SPAN> 150
       columns. Projects may opt to use an 80 column limit for consistency with
       the C++ style guide.
     </SUMMARY>
     <BODY>
       <p>
         You can make violations easier to spot by enabling <i>Preferences &gt;
-        Text Editing &gt; Page guide at column: 100</i> in Xcode.
+        Text Editing &gt; Page guide at column: <SPAN style="TEXT-DECORATION: line-through">100</SPAN> 150</i> in Xcode.
+      </p>
+      <p>
+        PS: Since WWDC 2015, Objective-C has some new features : "Nullability", "Lightweight Generics" and "__kindof". 
+        There features make code become longer and longer. So Jingoal Objective-C Style change line length from 100 to 150.
       </p>
     </BODY>
   </STYLEPOINT>
